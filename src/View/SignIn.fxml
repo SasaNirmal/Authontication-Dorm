@@ -7,10 +7,9 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="549.0" prefWidth="359.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.SignUpControllers">
    <children>
-      <Label layoutX="29.0" layoutY="24.0" text="Sign Up to Our Service" textFill="#2c3345">
+      <Label layoutX="29.0" layoutY="24.0" text="Sign In to Our Service" textFill="#2c3345">
          <font>
             <Font name="Arial Black" size="16.0" />
          </font>
@@ -18,7 +17,7 @@
       <TextField fx:id="txtSAddress" layoutX="32.0" layoutY="228.0" prefHeight="26.0" prefWidth="294.0" promptText="Street Address" />
       <TextField fx:id="txtEMail" layoutX="32.0" layoutY="167.0" prefHeight="26.0" prefWidth="294.0" promptText="example@example.com" />
       <TextField fx:id="txtFName" layoutX="33.0" layoutY="107.0" prefHeight="26.0" prefWidth="138.0" promptText="First Name" />
-      <Label layoutX="29.0" layoutY="48.0" text="Fill out the form to sign up to our service" textFill="#57647e">
+      <Label layoutX="29.0" layoutY="48.0" text="Fill out the form to sign In to our service" textFill="#57647e">
          <font>
             <Font name="Arial" size="10.0" />
          </font>
