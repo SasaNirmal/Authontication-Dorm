@@ -1,41 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="549.0" prefWidth="359.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.SignUpControllers">
+<AnchorPane prefHeight="549.0" prefWidth="359.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.SignInControllers">
    <children>
       <Label layoutX="29.0" layoutY="24.0" text="Sign In to Our Service" textFill="#2c3345">
          <font>
             <Font name="Arial Black" size="16.0" />
          </font>
       </Label>
-      <TextField fx:id="txtSAddress" layoutX="32.0" layoutY="228.0" prefHeight="26.0" prefWidth="294.0" promptText="Street Address" />
-      <TextField fx:id="txtEMail" layoutX="32.0" layoutY="167.0" prefHeight="26.0" prefWidth="294.0" promptText="example@example.com" />
-      <TextField fx:id="txtFName" layoutX="33.0" layoutY="107.0" prefHeight="26.0" prefWidth="138.0" promptText="First Name" />
+      <TextField fx:id="txtPassword" layoutX="32.0" layoutY="228.0" prefHeight="26.0" prefWidth="294.0" promptText="Street Address" />
+      <TextField fx:id="txtLogEMail" layoutX="32.0" layoutY="167.0" prefHeight="26.0" prefWidth="294.0" promptText="example@example.com" />
       <Label layoutX="29.0" layoutY="48.0" text="Fill out the form to sign In to our service" textFill="#57647e">
          <font>
             <Font name="Arial" size="10.0" />
          </font>
       </Label>
       <Line endX="168.0" layoutX="191.0" layoutY="72.0" opacity="0.4" startX="-191.00001525878906" strokeWidth="0.5" />
-      <Label layoutX="33.0" layoutY="86.0" text="Name" textFill="#2c3345" />
-      <TextField fx:id="txtLName" layoutX="189.0" layoutY="107.0" prefHeight="26.0" prefWidth="138.0" promptText="Last Name" />
       <Label layoutX="33.0" layoutY="146.0" text="E-Mail" textFill="#2c3345" />
-      <Label layoutX="33.0" layoutY="206.0" text="Address" textFill="#2c3345" />
-      <TextField fx:id="txtSAddress2" layoutX="32.0" layoutY="263.0" prefHeight="26.0" prefWidth="294.0" promptText="Street Address Line 2" />
-      <TextField fx:id="txtCity" layoutX="33.0" layoutY="299.0" prefHeight="26.0" prefWidth="138.0" promptText="City" />
-      <TextField fx:id="txtState" layoutX="189.0" layoutY="299.0" prefHeight="26.0" prefWidth="138.0" promptText="State / Province" />
-      <TextField fx:id="txtZCode" layoutX="32.0" layoutY="334.0" prefHeight="26.0" prefWidth="294.0" promptText="Postal / Zip Code" />
-      <Button fx:id="btnSubmit" layoutX="136.0" layoutY="378.0" mnemonicParsing="false" onAction="#btnSubmit" prefHeight="36.0" prefWidth="86.0" style="-fx-background-color: #0be881;" text="Submit" textFill="#f4f2f2">
+      <Label layoutX="33.0" layoutY="206.0" text="Password" textFill="#2c3345" />
+      <Button layoutX="33.0" layoutY="297.0" mnemonicParsing="false" onAction="#btnLogIn" prefHeight="36.0" prefWidth="294.0" style="-fx-background-color: #0be881;" text="Log In" textFill="#f4f2f2">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </Button>
       <Label fx:id="lblDetailsShow" layoutX="29.0" layoutY="426.0" prefHeight="96.0" prefWidth="294.0" style="-fx-background-color: #808e9b;" />
+      <CheckBox layoutX="33.0" layoutY="266.0" mnemonicParsing="false" onAction="#btnSaveUserOnAction" text="Remember Me" />
+      <Button layoutX="216.0" layoutY="262.0" mnemonicParsing="false" onAction="#btnForgotPasswordOnAction" text="Forgot Password?" />
+      <Button layoutX="9.0" layoutY="75.0" mnemonicParsing="false" onAction="#btnBackOnAction" text="&lt;" />
    </children>
 </AnchorPane>
