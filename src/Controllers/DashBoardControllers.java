@@ -33,4 +33,15 @@ public class DashBoardControllers {
         signUpStage.centerOnScreen();
         signUpStage.setTitle("Sign In");
     }
+
+    public void btnCusterTableOnAction(ActionEvent actionEvent) throws IOException {
+        Parent parent = FXMLLoader.load(this.getClass().getResource("../View/CustermerTable.fxml"));
+        Scene custermerTableScene = new Scene(parent);
+
+        Stage primeryStage = (Stage) this.root.getScene().getWindow();
+        primeryStage.setScene(custermerTableScene);
+        primeryStage.centerOnScreen();
+        primeryStage.setTitle("Custmer Table");
+
+    }
 }

@@ -24,7 +24,12 @@
             <Font name="System Bold" size="12.0" />
          </font>
       </Button>
-      <Button layoutX="29.0" layoutY="287.0" mnemonicParsing="false" onAction="#btnSignInOnAction" prefHeight="36.0" prefWidth="294.0" style="-fx-background-color: #0be881;" text="Sign In" textFill="#f4f2f2">
+      <Button layoutX="29.0" layoutY="259.0" mnemonicParsing="false" onAction="#btnSignInOnAction" prefHeight="36.0" prefWidth="294.0" style="-fx-background-color: #0be881;" text="Sign In" textFill="#f4f2f2">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="29.0" layoutY="320.0" mnemonicParsing="false" onAction="#btnCusterTableOnAction" prefHeight="36.0" prefWidth="294.0" style="-fx-background-color: #0be881;" text="Custermer Table" textFill="#f4f2f2">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
