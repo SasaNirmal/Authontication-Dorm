@@ -5,7 +5,6 @@ public class CustemerTM {
     private String name;
     private String email;
     private String contact;
-
     public CustemerTM() {
     }
 
